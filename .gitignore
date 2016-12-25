@@ -1,4 +1,5 @@
 .idea/
+<<<<<<< HEAD
 *
 .bin
 
@@ -6,4 +7,9 @@
 
 *.properties
 
+=======
+*.bin
+*.iml
+*.properties
+>>>>>>> 49544d5142545b8e8c405b362a186d87579264d4
 *.lock

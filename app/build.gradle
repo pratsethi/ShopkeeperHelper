@@ -5,7 +5,11 @@ android {
     buildToolsVersion "24.0.1"
     defaultConfig {
         applicationId "com.shopkeeperhelper"
+<<<<<<< HEAD
         minSdkVersion 22
+=======
+        minSdkVersion 17
+>>>>>>> 49544d5142545b8e8c405b362a186d87579264d4
         targetSdkVersion 24
         versionCode 1
         versionName "1.0"
@@ -25,5 +29,9 @@ dependencies {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
     compile 'com.android.support:appcompat-v7:24.2.0'
+<<<<<<< HEAD
+=======
+    compile 'com.android.support:design:23.1.1'
+>>>>>>> 49544d5142545b8e8c405b362a186d87579264d4
     testCompile 'junit:junit:4.12'
 }
