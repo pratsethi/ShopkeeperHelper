@@ -1,5 +1,9 @@
 .idea/
-*.bin
+*
+.bin
+
 *.iml
+
 *.properties
+
 *.lock
