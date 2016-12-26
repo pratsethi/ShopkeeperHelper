@@ -32,5 +32,4 @@
        android:layout_height="wrap_content"
        android:layout_margin="10dp"
        android:foregroundGravity="bottom|right"/>
->>>>>>> 49544d5142545b8e8c405b362a186d87579264d4
 </RelativeLayout>
