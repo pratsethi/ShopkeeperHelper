@@ -11,6 +11,7 @@
     tools:context="com.shopkeeperhelper.MainActivity">
 
    <android.support.v7.widget.RecyclerView
+       android:id="@+id/recylerView"
        android:layout_width="match_parent"
        android:layout_height="match_parent"
        android:dividerHeight="3dp"
@@ -31,5 +32,7 @@
        android:layout_width="wrap_content"
        android:layout_height="wrap_content"
        android:layout_margin="10dp"
+       android:layout_alignParentBottom="true"
+       android:layout_alignParentRight="true"
        android:foregroundGravity="bottom|right"/>
 </RelativeLayout>

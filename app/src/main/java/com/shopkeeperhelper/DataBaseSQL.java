@@ -2,8 +2,11 @@ package com.shopkeeperhelper;
 
 import android.content.ContentValues;
 import android.content.Context;
+import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
+
+import java.util.ArrayList;
 
 /**
  * Created by PSethi on 23-Dec-16.
@@ -18,7 +21,7 @@ public class DataBaseSQL extends SQLiteOpenHelper {
 
     @Override
     public void onCreate(SQLiteDatabase sqLiteDatabase) {
-        sqLiteDatabase.execSQL("create table balDetails(name text,phone text,address text,balance integer)");
+        sqLiteDatabase.execSQL("CREATE TABLE IF NOT EXISTS balDetails(name text,phone text,address text,balance integer)");
         this.sqLiteDatabase = sqLiteDatabase;
     }
 
@@ -39,6 +42,29 @@ public class DataBaseSQL extends SQLiteOpenHelper {
         values.put("phone",phone);
         values.put("address",address);
         values.put("balance",balance);
-        sqLiteDatabase.update("balDetails",values,"",null);
+        sqLiteDatabase.insert("balDetails",null,values);
+    }
+
+    public ArrayList<String> getRows()
+    {
+        ArrayList<String> list = new ArrayList<>();
+
+        Cursor cursor = sqLiteDatabase.rawQuery("Select * from balDetails",null);
+        while(cursor.moveToNext())
+        {
+            String row;
+            row = cursor.getString(cursor.getColumnIndex("name"));
+            row += "," + cursor.getString(cursor.getColumnIndex("phone"));
+            row += "," + cursor.getString(cursor.getColumnIndex("address"));
+            row += "," + cursor.getString(cursor.getColumnIndex("balance"));
+            list.add(row);
+        }
+        return list;
+    }
+
+    public int getTableCount()
+    {
+        Cursor cursor = sqLiteDatabase.rawQuery("Select * from balDetails",null);
+        return cursor.getCount();
     }
 }
