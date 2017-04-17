@@ -3,120 +3,75 @@
 
     <item
         is-multidex="true"
+        jar="C:\Users\psethi\.android\build-cache\808e44f857be5342791a5292582c767b1082191d\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6eb9107eb34d2fe2b020662b7fbbec991dcba846">
+        <dex dex="D:\AndroidRegular\ShopBalance\shop-balance\ShopkeeperHelper\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_b269c8eebdc863956f075825a23c012aa1e0554e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="D:\AndroidRegular\ShopBalance\shop-balance\ShopkeeperHelper\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="47590254c3c3666032a14293f551ecd345086419">
-        <dex dex="D:\AndroidRegular\ShopBalance\shop-balance\ShopkeeperHelper\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_7e7c93c1e7b702432b52db92970be8b2da5c4345\classes.dex" />
+        revision="25.0.0"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="D:\AndroidRegular\ShopBalance\shop-balance\ShopkeeperHelper\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_7e7c93c1e7b702432b52db92970be8b2da5c4345\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="D:\AndroidRegular\ShopBalance\shop-balance\ShopkeeperHelper\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.1\jars\classes.jar"
+        jar="C:\Users\psethi\.android\build-cache\11a6185276e8055d4b8d5046f8ab2f7d99e2b0d3\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="09c5e804bc67fc0580360043dff067df574a60d4">
-        <dex dex="D:\AndroidRegular\ShopBalance\shop-balance\ShopkeeperHelper\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-23.1.1_cacbeb11cbdd3a8f0a3a8622e81e3c998916712b\classes.dex" />
+        revision="25.0.0"
+        sha1="d8bd2268fdcbfd52c76ade65d9900cd8def93a44">
+        <dex dex="D:\AndroidRegular\ShopBalance\shop-balance\ShopkeeperHelper\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f802d3532f82115eae39ba372239cbdcf8c1b41d\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="D:\AndroidRegular\ShopBalance\shop-balance\ShopkeeperHelper\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jar="C:\Users\psethi\.android\build-cache\11a6185276e8055d4b8d5046f8ab2f7d99e2b0d3\output\jars\libs\internal_impl-24.2.0.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.1"
+        revision="25.0.0"
         sha1="032a4b53def5e2ceedfc2e793b126c0163cfa1dd">
-        <dex dex="D:\AndroidRegular\ShopBalance\shop-balance\ShopkeeperHelper\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_72ee597c40916f7ad66d14b8a95389e3ca07b926\classes.dex" />
+        <dex dex="D:\AndroidRegular\ShopBalance\shop-balance\ShopkeeperHelper\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_ac8d0917530bde00ede768f26773ac499e2f1bc1\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="D:\AndroidRegular\ShopBalance\shop-balance\ShopkeeperHelper\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\jars\classes.jar"
+        jar="C:\Users\psethi\.android\build-cache\9a9454caf05a4a0c3dc4f604217654e21b0faaf0\output\jars\libs\internal_impl-24.2.0.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="f9b41622897665678d31d78e57a361cb0cebcb0d">
-        <dex dex="D:\AndroidRegular\ShopBalance\shop-balance\ShopkeeperHelper\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-24.2.0_a25e39f068db914a80687ccb656be51427908563\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\AndroidRegular\ShopBalance\shop-balance\ShopkeeperHelper\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\jars\libs\internal_impl-24.2.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
+        revision="25.0.0"
         sha1="771b3cc0e597b54da25f8086ba73180c59c6bc71">
-        <dex dex="D:\AndroidRegular\ShopBalance\shop-balance\ShopkeeperHelper\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_a6c0626d05f517b5c0224fc37e05325f409a87df\classes.dex" />
+        <dex dex="D:\AndroidRegular\ShopBalance\shop-balance\ShopkeeperHelper\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_42989c5005da0ac27ac2d29717ceaa7ef681aef0\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="D:\AndroidRegular\ShopBalance\shop-balance\ShopkeeperHelper\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.0\jars\classes.jar"
+        jar="C:\Users\psethi\.android\build-cache\c026599c63e5a648b5fab5c5a9c48bd05372745f\output\jars\libs\internal_impl-24.2.0.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="45f5eda279825ff470e3f51019d374d1ef61e000">
-        <dex dex="D:\AndroidRegular\ShopBalance\shop-balance\ShopkeeperHelper\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.2.0_2f07b559b59433b8f0a89fdb5437d952277f50f3\classes.dex" />
+        revision="25.0.0"
+        sha1="6e02e34594ebe9c0501ffda8dd48497f81b82977">
+        <dex dex="D:\AndroidRegular\ShopBalance\shop-balance\ShopkeeperHelper\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_6d7b144775893fbbba47fe0bf4240d0cd159b570\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="D:\AndroidRegular\ShopBalance\shop-balance\ShopkeeperHelper\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\jars\classes.jar"
+        jar="C:\Users\psethi\.android\build-cache\808e44f857be5342791a5292582c767b1082191d\output\jars\libs\internal_impl-24.2.0.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="c84e216d9bf618464d6b9564d71d9a656433e7c4">
-        <dex dex="D:\AndroidRegular\ShopBalance\shop-balance\ShopkeeperHelper\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-24.2.0_1fa95423476863cf3c24794df62060d87b24afb3\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\AndroidRegular\ShopBalance\shop-balance\ShopkeeperHelper\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\jars\libs\internal_impl-24.2.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
+        revision="25.0.0"
         sha1="045be695d968dd707691cc55d23746dbf8cf569a">
-        <dex dex="D:\AndroidRegular\ShopBalance\shop-balance\ShopkeeperHelper\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_05080800f3ecb205422e96d930a70431c7c55896\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\AndroidRegular\ShopBalance\shop-balance\ShopkeeperHelper\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="f3ee23ef25c9a8fe3d40246d0b7097267963a612">
-        <dex dex="D:\AndroidRegular\ShopBalance\shop-balance\ShopkeeperHelper\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.2.0_17d6688133ece8f01c6a3aadf6ae98165360ed9a\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\AndroidRegular\ShopBalance\shop-balance\ShopkeeperHelper\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="beac40bcc8a320a896dd15f5109cfcaea5e1e0e3">
-        <dex dex="D:\AndroidRegular\ShopBalance\shop-balance\ShopkeeperHelper\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.2.0_e0a3438d0308f84a33bef26e5d8261265bbbb20c\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\AndroidRegular\ShopBalance\shop-balance\ShopkeeperHelper\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="fcc945a86ebcbf527429acb8216ec7dae2c06417">
-        <dex dex="D:\AndroidRegular\ShopBalance\shop-balance\ShopkeeperHelper\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-24.2.0_6a6ecfcff0c4d298527fd35b43ec2f01cf1f7faa\classes.dex" />
+        <dex dex="D:\AndroidRegular\ShopBalance\shop-balance\ShopkeeperHelper\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_0a4a205c3b0926811ef4b17160c8979bf73b9f7f\classes.dex" />
     </item>
     <item
         is-multidex="true"
         jar="D:\AndroidRegular\ShopBalance\shop-balance\ShopkeeperHelper\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="42bde3ffd959c1e78f4fc4c5ff99f23055026631">
-        <dex dex="D:\AndroidRegular\ShopBalance\shop-balance\ShopkeeperHelper\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_0b33b4f8d40371e3ff15a2b0b391938e754bd702\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\AndroidRegular\ShopBalance\shop-balance\ShopkeeperHelper\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\jars\libs\internal_impl-24.2.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="6e02e34594ebe9c0501ffda8dd48497f81b82977">
-        <dex dex="D:\AndroidRegular\ShopBalance\shop-balance\ShopkeeperHelper\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_bc0e8b8235bfc0e8ff2b048f4d2198028d45497d\classes.dex" />
+        revision="25.0.0"
+        sha1="9ef5d653ccade620b220341989e1b9e3456e8d02">
+        <dex dex="D:\AndroidRegular\ShopBalance\shop-balance\ShopkeeperHelper\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_0b33b4f8d40371e3ff15a2b0b391938e754bd702\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -129,48 +84,102 @@
     </item>
     <item
         is-multidex="true"
-        jar="D:\AndroidRegular\ShopBalance\shop-balance\ShopkeeperHelper\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.0\jars\classes.jar"
+        jar="C:\Users\psethi\.android\build-cache\4eef27a903584e26aa07e5e8d33285b2891e49d4\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.1"
+        revision="25.0.0"
+        sha1="09c5e804bc67fc0580360043dff067df574a60d4">
+        <dex dex="D:\AndroidRegular\ShopBalance\shop-balance\ShopkeeperHelper\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_44c7981db908c95646c310ac52bda38e253def37\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\psethi\.android\build-cache\9a9454caf05a4a0c3dc4f604217654e21b0faaf0\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f9b41622897665678d31d78e57a361cb0cebcb0d">
+        <dex dex="D:\AndroidRegular\ShopBalance\shop-balance\ShopkeeperHelper\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ad22864b29425997b4b584cef696140c8edefd4c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\psethi\.android\build-cache\2636cf33d6d80292132fdc61a36d353f00d50654\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
         sha1="c3c638be6e650b165ab9ae144857b64e82787fad">
-        <dex dex="D:\AndroidRegular\ShopBalance\shop-balance\ShopkeeperHelper\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.2.0_a0da7fd46e5bb1ce11d4d771c4385b4cc06df3ca\classes.dex" />
+        <dex dex="D:\AndroidRegular\ShopBalance\shop-balance\ShopkeeperHelper\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e783f623712c33f6e25e014091127c06539a4134\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="D:\AndroidRegular\ShopBalance\shop-balance\ShopkeeperHelper\app\build\intermediates\exploded-aar\com.android.support\design\23.1.1\jars\classes.jar"
+        jar="C:\Users\psethi\.android\build-cache\ac80333869d04f16790f1b9e49092ce0a0027278\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="379471b2bd17d9737c050345c08e8c7d16589784">
-        <dex dex="D:\AndroidRegular\ShopBalance\shop-balance\ShopkeeperHelper\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-23.1.1_85dd3ce204f3e0a5a8d27238fdeb85c1d26fb1c7\classes.dex" />
+        revision="25.0.0"
+        sha1="f3ee23ef25c9a8fe3d40246d0b7097267963a612">
+        <dex dex="D:\AndroidRegular\ShopBalance\shop-balance\ShopkeeperHelper\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_6232cfd2e3990cf203e124b86df1821464a3cd66\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="D:\AndroidRegular\ShopBalance\shop-balance\ShopkeeperHelper\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.0\jars\classes.jar"
+        jar="C:\Users\psethi\.android\build-cache\b538849d28d03def9f66a489d405bdab08e16e13\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="d8bd2268fdcbfd52c76ade65d9900cd8def93a44">
-        <dex dex="D:\AndroidRegular\ShopBalance\shop-balance\ShopkeeperHelper\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-24.2.0_a21f4e9f761f3621f5d6d3203b90acfca6abedfa\classes.dex" />
+        revision="25.0.0"
+        sha1="fcc945a86ebcbf527429acb8216ec7dae2c06417">
+        <dex dex="D:\AndroidRegular\ShopBalance\shop-balance\ShopkeeperHelper\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f62e942ba537ba93755e64cf35b4f472f91caead\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="D:\AndroidRegular\ShopBalance\shop-balance\ShopkeeperHelper\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jar="C:\Users\psethi\.android\build-cache\cca7c71dfe35e76630a46079ff9fb390d4d03f0e\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.1"
+        revision="25.0.0"
+        sha1="beac40bcc8a320a896dd15f5109cfcaea5e1e0e3">
+        <dex dex="D:\AndroidRegular\ShopBalance\shop-balance\ShopkeeperHelper\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_772c0011bca1430606c401694fc736b419936812\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\psethi\.android\build-cache\c026599c63e5a648b5fab5c5a9c48bd05372745f\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c84e216d9bf618464d6b9564d71d9a656433e7c4">
+        <dex dex="D:\AndroidRegular\ShopBalance\shop-balance\ShopkeeperHelper\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_24ddd56a1537c843bbbab0b10e75842e740eb2a5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\psethi\.android\build-cache\5116bdfe8f9c745d7d01a77db0f722d581db3692\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="45f5eda279825ff470e3f51019d374d1ef61e000">
+        <dex dex="D:\AndroidRegular\ShopBalance\shop-balance\ShopkeeperHelper\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_22e0823f7eb4e74bad108c752d0715ef1a7bf422\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\psethi\.android\build-cache\b538849d28d03def9f66a489d405bdab08e16e13\output\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
         sha1="60d7b23621d31e6f42f4f76f16af467e57a20cda">
-        <dex dex="D:\AndroidRegular\ShopBalance\shop-balance\ShopkeeperHelper\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_1b4f2d9342de801174a95f6f59ba98bda09579c7\classes.dex" />
+        <dex dex="D:\AndroidRegular\ShopBalance\shop-balance\ShopkeeperHelper\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_62195becc0fa7866117eb92f86acbef6d1bff434\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="D:\AndroidRegular\ShopBalance\shop-balance\ShopkeeperHelper\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\jars\classes.jar"
+        jar="C:\Users\psethi\.android\build-cache\06483e9b5281b1e870c1a3bb56bf9c61494d3c78\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="6eb9107eb34d2fe2b020662b7fbbec991dcba846">
-        <dex dex="D:\AndroidRegular\ShopBalance\shop-balance\ShopkeeperHelper\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-24.2.0_d95aa1ee44e5a677605ae408d3bddbf916004af4\classes.dex" />
+        revision="25.0.0"
+        sha1="379471b2bd17d9737c050345c08e8c7d16589784">
+        <dex dex="D:\AndroidRegular\ShopBalance\shop-balance\ShopkeeperHelper\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_0db702469cd46fcdb5974c164104233c8c95aadc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\psethi\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.0\support-annotations-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6be858a75633b1f0a2d24cad740db57775cb6871">
+        <dex dex="D:\AndroidRegular\ShopBalance\shop-balance\ShopkeeperHelper\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.2.0_23bc25a0f6a4eb9c68e33e567ffd8a08c6ef1db2\classes.dex" />
     </item>
 
 </items>

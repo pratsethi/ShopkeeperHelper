@@ -8,6 +8,7 @@ import android.widget.TextView;
 
 import com.shopkeeperhelper.R;
 
+
 import java.util.ArrayList;
 
 /**
@@ -26,18 +27,20 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.ViewHo
     {
         public TextView txtName;
         public TextView txtBalance;
+        public TextView txtPhone;
 
         public ViewHolder(View itemView) {
             super(itemView);
             txtName = (TextView) itemView.findViewById(R.id.txtName);
             txtBalance = (TextView) itemView.findViewById(R.id.txtBalance);
+            txtPhone = (TextView) itemView.findViewById(R.id.txtPhone);
         }
     }
 
     @Override
     public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
 
-        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.list_template,parent,false);
+        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.list_template,null,false);
 
         ViewHolder viewHolder = new ViewHolder(view);
         return viewHolder;
@@ -46,9 +49,14 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.ViewHo
     @Override
     public void onBindViewHolder(ViewHolder holder, int position) {
 
-        String[] listSplit = list.get(position).split(",");
+        String[] listSplit = list.get(position).split(";");
         holder.txtName.setText(listSplit[0]);
+        holder.txtPhone.setText(listSplit[1]);
         holder.txtBalance.setText(listSplit[3]);
+        if(list.size()-1 == position)
+        {
+
+        }
     }
 
 

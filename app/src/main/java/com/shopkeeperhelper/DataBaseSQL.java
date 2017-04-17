@@ -21,7 +21,7 @@ public class DataBaseSQL extends SQLiteOpenHelper {
 
     @Override
     public void onCreate(SQLiteDatabase sqLiteDatabase) {
-        sqLiteDatabase.execSQL("CREATE TABLE IF NOT EXISTS balDetails(name text,phone text,address text,balance integer)");
+        sqLiteDatabase.execSQL("CREATE TABLE IF NOT EXISTS balDetails(name text,phone text primary key,address text,balance integer)");
         this.sqLiteDatabase = sqLiteDatabase;
     }
 
@@ -48,15 +48,18 @@ public class DataBaseSQL extends SQLiteOpenHelper {
     public ArrayList<String> getRows()
     {
         ArrayList<String> list = new ArrayList<>();
-
+        if(sqLiteDatabase == null)
+        {
+            sqLiteDatabase = this.getWritableDatabase();
+        }
         Cursor cursor = sqLiteDatabase.rawQuery("Select * from balDetails",null);
         while(cursor.moveToNext())
         {
             String row;
             row = cursor.getString(cursor.getColumnIndex("name"));
-            row += "," + cursor.getString(cursor.getColumnIndex("phone"));
-            row += "," + cursor.getString(cursor.getColumnIndex("address"));
-            row += "," + cursor.getString(cursor.getColumnIndex("balance"));
+            row += ";" + cursor.getString(cursor.getColumnIndex("phone"));
+            row += ";" + cursor.getString(cursor.getColumnIndex("address"));
+            row += ";" + cursor.getString(cursor.getColumnIndex("balance"));
             list.add(row);
         }
         return list;
@@ -64,7 +67,31 @@ public class DataBaseSQL extends SQLiteOpenHelper {
 
     public int getTableCount()
     {
+        if(sqLiteDatabase == null)
+        {
+            sqLiteDatabase = this.getWritableDatabase();
+        }
         Cursor cursor = sqLiteDatabase.rawQuery("Select * from balDetails",null);
         return cursor.getCount();
+    }
+
+    public ArrayList<String> getSearchResult(String text)
+    {
+        ArrayList<String> list = new ArrayList<>();
+        if(sqLiteDatabase == null)
+        {
+            sqLiteDatabase = this.getWritableDatabase();
+        }
+        Cursor cursor = sqLiteDatabase.rawQuery("SELECT * from balDetails where name LIKE '"+text+"%'",null);
+        while(cursor.moveToNext())
+        {
+            String row;
+            row = cursor.getString(cursor.getColumnIndex("name"));
+            row += ";" + cursor.getString(cursor.getColumnIndex("phone"));
+            row += ";" + cursor.getString(cursor.getColumnIndex("address"));
+            row += ";" + cursor.getString(cursor.getColumnIndex("balance"));
+            list.add(row);
+        }
+        return list;
     }
 }
